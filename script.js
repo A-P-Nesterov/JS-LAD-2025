@@ -18,106 +18,6 @@
 // console.log(1 === "1"); // false тут строгое сравнение где цифра 1 не равна строке с цифрой 1
 // console.log("2" > 10); // false строка "2" преобразуется в число 2 а так как 2 меньше 10 js говорит что это не правда
 // console.log(NaN == undefined); // false не правда что не число (которе может получится в результате деления на 0) будет равно пустой переменной (переменной которую создали но еще не присвоили значение)
-// let section1 = "11";
-// let section2 = "20";
-// let section3 = "30";
-// let sm = 10;
-// if (section1 > section2) {
-//   if (section1 > section2) {
-//     console.log(section1);
-//   }
-// } else if (section2 > section3) {
-//   if (section1 > section2) {
-//     console.log(section1);
-//   }
-// }
-// let t = 40;
-// if (t <= -30) {
-//   console.log("Оставайтесь дома!");
-// } else if (t <= -10) {
-//   console.log("Сегодня холодно");
-// } else if (t <= 5) {
-//   console.log("Не холодно");
-// } else if (t <= 15) {
-//   console.log("Тепло");
-// } else if (t <= 25) {
-//   console.log("Очень тепло");
-// } else if (t < 35) {
-//   console.log("Жарко");
-// } else {
-//   console.log("Пекло");
-// }
-// let user = "менедж";
-// switch (user) {
-//   case "админ":
-//     console.log("админ");
-//     break;
-//   case "пользователь":
-//     console.log("пользовател");
-//     break;
-//   case "пользователь":
-//     console.log("менеджер");
-//     break;
-//   default:
-//     console.log("Авторизуйтесь");
-//     break;
-// }
-// console.log(0 || (true && "folse") || nul); // true
-// console.log((0 && true) || ("false" && null));
-// console.log(!0 && !!1);
-//
-// for (let i = 0; i <= 10; i++) {
-//   console.log(i);
-// }
-// let n = 100;
-// let m = 25;
-// for (let i = 1000; i <= 25; i--) {
-//   console.log(i);
-// }
-// let day = 1;
-// let cars = N;
-// while (cars >= M) {
-//   cars = cars / 2;
-//   day++;
-// }
-// console.log(day);
-// const m = 5;
-// let n = 32;
-// let dCount = 1;
-// while (n >= m) {
-//   n = n / 2;
-//   dCount++;
-// }
-// console.log(dCount);
-// for (; n >= m; dCount++) {
-//   n = n / 2;
-// }
-// console.log(dCount);
-// console.log(0 || (true && "false") || null);
-// console.log((0 && true) || ("false" && null));
-// console.log(!0 && !!1);
-// console.log(null == undefined);
-// console.log(null > 0); //true
-// console.log("0" === false);
-// console.log(undefined == false);
-// console.log(null || 0 || "" || undefined);
-// console.log("яблоко" && true && null && 1);
-// console.log(0 || (true && "faffflse") || null);
-// console.log((0 && true) || ("faffflse" && null));
-// console.log(!0 && !!1);
-// console.log(!(null || (!"апельсин" && true)));
-// for (let i = 0; i <= 7; i++) {
-//   console.log(i);
-// }
-
-// let i = 4;
-// if (i == 2) {
-//   console.log("да работает");
-// } else if (i > 2) {
-//   console.log("не работает");
-// } else {
-//   console.log("не то значение");
-// };
 //домашка 24.03.2025
 //Работа с if-else
 //1.  Если переменная a равна нулю, то выведите 'Верно', иначе выведите 'Неверно'. Проверьте работу скрипта при a, равном 1, 0, -3.
@@ -357,9 +257,9 @@
 // }
 // console.log(n);
 // console.log(num);
-let num = 0;
-for (n = 1000; n >= 50; num++) {
-  n /= 2;
-}
-console.log(n);
-console.log(num);
+// let num = 0;
+// for (n = 1000; n >= 50; num++) {
+//   n /= 2;
+// }
+// console.log(n);
+// console.log(num);
